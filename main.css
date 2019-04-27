@@ -1,0 +1,183 @@
+body {
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
+}
+#arajin {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 180px;
+}
+#margin {
+    background-color: #3b5998;
+    background-image: linear-gradient(to bottom, #4267b2, #3b5998 40%);
+    height: 83px;
+}
+#all, #facebook {
+    display: flex;
+}
+#go {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+#go input {
+    color: #fff;
+    background-color: #4267b2;
+    border: solid 1px #29487d;
+    padding: 4px;
+}
+#all {
+    font-size: 12px;
+    line-height: 2px;
+}
+#password input, #login input {
+    margin: 0 16px;
+    width: 145px;
+    font-size: 17px;
+    border: solid 1px black;
+}
+#login input {
+    margin-left: 12px;
+}
+#password input {
+    margin-right: 10px;
+}
+#password p {
+    margin-left: 15px;
+}
+#password a {
+    margin-left: 2px;
+    color: #9cb4d8;
+    text-decoration: none;
+}
+#facebook a, #login p, #password p {
+    color: white;
+}
+#facebook a {
+    text-decoration: none;
+    font-size: 40px;
+    margin-left: 1px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+#login, #password, #go {
+    margin: 10px;
+    /* margin-left: -20px; */
+}
+#margin2 {
+    background-image: linear-gradient(to bottom, white, #D3D8E8 30%);
+    padding-top: 10px;
+}
+#erkrord {
+    display: flex;
+    margin: 0 180px;
+    justify-content: space-between;
+}
+#nkar h3 {
+    width: 450px;
+}
+#register {
+    margin-left: 60px;
+}
+#title h1 {
+    width: 40px;
+    font-size: 40px;
+}
+#title p {
+    font-size: 19px;
+}
+#names {
+    width: 100%;
+    justify-content: space-between;
+    padding-bottom: 8px;
+}
+#names input {
+    border: solid 1px #D3D8E8;
+    border-radius: 8px;
+    height: 35px;
+}
+#adress, #new_pass {
+    padding-bottom: 8px;
+}
+#adress input, #new_pass input {
+    width: 88%;
+    padding-bottom: 8px;
+    border: solid 1px #D3D8E8;
+    border-radius: 8px;
+    height: 35px;
+}
+#date {
+    font-size: 19px;
+}
+#inline {
+    width: 100%;
+}
+#data, #for_what {
+    display: inline-flex;
+    width: 36%;
+    vertical-align: middle;
+}
+ #data {
+    width: 49%;
+} 
+#for_what a, #bottom_write a, #bottom-write a {
+    font-size: 13px;
+    text-decoration: none;
+    color: #365899;
+}
+#bottom_write, #bottom-write {
+    font-size: 13px;
+}
+#data select {
+    height: 35px;
+    border: solid 1px #D3D8E8;
+    margin: 0;
+}
+#male {
+    display: inline-flex;
+    font-size: 19px;
+    margin: 15px 0 8px 0;
+}
+#registration input {
+    background-image: linear-gradient(to bottom, #67ae55, #578843 70%);
+    box-shadow: inset 0 1px 1px #a4e388;
+    border: solid 1px;
+    border-color: #3b6e22 #3b6e22 #2c5115;
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 22px;
+}
+#registration {
+    padding: 10px 0 20px;
+}
+#errord {
+    background-color: white;
+}
+#langs, #line, #other, #errord p {
+    margin: 0 180px;
+}
+#langs li, #other li {
+    display: inline-block;
+    margin: 4px 6px;
+}
+ul {
+    font-size: 12px;
+    text-align: justify;
+}
+ul li a {
+    text-decoration: none;
+    color: #365899;
+}
+#errord p, #langs span {
+    color: #737373;
+    font-size: 12px;
+}
+#langs input {
+    font-size: 20px;
+    color: #4b4f56;
+}
+#langs ul {
+    padding-bottom: 10px;
+    border-bottom: solid 1px #dddfe2;
+}
